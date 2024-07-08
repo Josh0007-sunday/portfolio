@@ -1,0 +1,81 @@
+{
+  "name": "sidebarwebsite",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.24.7",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@metaplex/js": "^4.12.0",
+    "@mui/icons-material": "^5.15.4",
+    "@mui/material": "^5.16.0",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.18",
+    "@mui/x-charts": "^7.9.0",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.15",
+    "@solana/spl-token": "^0.4.7",
+    "@solana/wallet-adapter-react": "^0.15.35",
+    "@solana/wallet-adapter-react-ui": "^0.9.35",
+    "@solana/wallet-adapter-wallets": "^0.19.32",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "ajv": "^8.16.0",
+    "axios": "^1.7.2",
+    "babel-loader": "^9.1.3",
+    "next-tick": "^1.1.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.2.1",
+    "react-scripts": "5.0.1",
+    "styled-components": "^6.1.11",
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.92.1"
+  },
+  "scripts": {
+    "start": "react-app-rewired start --config-overrides ./config-overrides.cjs",
+    "build": "react-app-rewired build --config-overrides ./config-overrides.cjs",
+    "test": "react-app-rewired test --config-overrides ./config-overrides.cjs"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.24.7",
+    "assert": "^2.1.0",
+    "babel-plugin-transform-commonjs": "^1.0.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "customize-cra": "^1.0.0",
+    "html-webpack-plugin": "^5.6.0",
+    "https-browserify": "^1.0.0",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "react-refresh": "^0.10.0",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.3"
+  },
+   "browser": {
+    "crypto": false,
+    "stream": false
+  }
+}

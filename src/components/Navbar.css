@@ -1,0 +1,86 @@
+/* .Navbar{
+    width: 30px;
+    display: flex;
+    background:
+    #191815;
+    padding: 10px;
+    
+}
+.side{
+    background: 
+    #191815;
+    color: white;
+}
+.icos{
+    color: white;
+}
+.box{
+    background: 
+    #191815;
+}
+.bottomsocials{
+    margin-top: 15rem;
+    padding: 30px;
+    
+  }
+  .icos{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+  }
+  .discord:hover{
+    color: #8cff05;
+  }
+  .twitter:hover{
+    color: #8cff05;
+  }
+  .googledocs:hover{
+    color: #8cff05;
+  }
+  .docsify:hover{
+    color: #8cff05;
+  } */
+
+  .Navbar {
+    width: 30px;
+    display: flex;
+    background: #191815;
+    padding: 10px;
+}
+
+.side {
+    background: #191815;
+    color: white;
+}
+
+.icos {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+
+.box {
+    background: #191815;
+}
+
+.bottomsocials {
+    margin-top: 15rem; /* Adjust margin-top as needed */
+    padding: 30px;
+}
+
+.discord:hover {
+    color: #8cff05;
+}
+
+.twitter:hover {
+    color: #8cff05;
+}
+
+.googledocs:hover {
+    color: #8cff05;
+}
+
+.docsify:hover {
+    color: #8cff05;
+}
